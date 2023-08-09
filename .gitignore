@@ -1,0 +1,8 @@
+*.drawio.bkp
+.DS_Store
+*.tfstate*
+.terraform*
+*.env
+*.qcow2
+*_rsa.prv
+credentials-*.csv
