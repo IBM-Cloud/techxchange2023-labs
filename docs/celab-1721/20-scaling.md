@@ -15,7 +15,7 @@ From the **Overview** tab for your specific application, Code Engine displays ba
    * The total number of **CPU** and **Memory** used by these instances.
 
 Now, let’s see what happens when this app gets a lot of traffic!
-1. Go to https://load.fun.cloud.ibm.com/.
+1. Go to https://ibm.biz/loadgen.
 1. Copy and paste the URL of the application in the form.
    ![](images/20-configure-load.png ':size=400')
 1. Click **Generate Load**.
