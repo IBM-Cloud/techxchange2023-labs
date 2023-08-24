@@ -29,6 +29,16 @@ In the _Custom image for VPC_ dialog:
 1. Click **Create custom image**.
 1. Wait for the image to become **Available**.
 
+?> At this stage, you have created a new custom image from your virtual server. The image can be used to create new virtual server instances. They would contain all the modifications you may have done to the original virtual server before you created the image.
+
+## Delete the instance
+
+1. Go to https://cloud.ibm.com/vpc-ext/compute/vs.
+   * Alternatively, use the navigation menu to go to the Virtual server instances page: ☰ > VPC Infrastructure > Virtual server instances.
+1. Select your virtual server instance.
+1. From the **Actions** menu, choose **Delete**.
+1. Follow confirmation instructions.
+
 ## Obsolete the initial image
 
 You can control the complete lifecycle of your images. As example, once you release a new version of an image you may want to mark the previous version as _Deprecated_, or _Obsolete_ so that users in your account migrate to the most recent version. It is a nicer approach than simply deleting the previous version and give users some grace period before they can't use the previous version anymore.

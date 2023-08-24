@@ -9,7 +9,7 @@ You find 3 categories of images in IBM Cloud:
 
 ## Log in to IBM Cloud
 
-1. Go to https://ibm.biz/ce-labs-invite.
+1. Go to https://ibm.biz/vpc-labs-invite.
 1. Enter the `Username` and `Password` provided for the lab.
 1. Click **Sign in**.
   ![](images/10-login.png ':size=600')
@@ -52,7 +52,7 @@ To confirm the image file has been correctly preloaded:
 
 ## Catalog images
 
-If you plan to share or publish a custom image to other accounts within your enterprise, you need to create a private catalog. A private catalog provides a way for you to manage access to products for multiple accounts while those accounts are within the same enterprise. You can share any existing x86 virtual server custom image with a private catalog, except for an encrypted image.
+If you plan to share or publish a custom image to other accounts within your enterprise, you need to create a private catalog. A private catalog provides a way for you to manage access to products for multiple accounts while those accounts are within the same enterprise. You can share any existing virtual server custom image with a private catalog, except for an encrypted image.
 
 This lab includes an optional section to do this.
 

@@ -51,7 +51,7 @@ You will create a VSI from the custom image and customize the instance during th
    1. Select **cx2-2x4** as the the profile.
    1. Click **Save**.
    ![](images/20-select-profile.png ':size=500')
-1. Under **SSH keys**, select `labadmin` and the SSH key you created (as example `vpclab-123-key`).
+1. Under **SSH keys**, the SSH key you created (as example `vpclab-123-key`).
 1. Scroll down to **Advanced options**.
    1. Open the **User data** twisty.
    1. Copy and paste the following.  
@@ -76,9 +76,7 @@ You will verify that the instance has been provisioned and contains the unique c
 1. Scroll down to **Network interfaces** and click the **Edit** pencil.
   ![](images/20-fip.png ':size=400')
 1. In the Floating IP address
-   1. Select an existing Floating IP named after your usage (as example `vpclab-123-fip`)if available
-   1. If none available, choose **Reserve a new floating IP** from the drop down.
-      ![](images/20-fip-select.png ':size=400')
+   1. Select an existing Floating IP named after your username (as example `vpclab-123-fip`) if available
 1. Click **Save**.
 1. In the **Network interfaces**, click on the **Floating IP** assigned to your virtual server instance to copy the value to the clipboard.
 
