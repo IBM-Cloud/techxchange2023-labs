@@ -1,4 +1,4 @@
-# A Hands-On Guide for VPC Image Creation
+# Navigating challenges and crafting solutions for Secure, Compliant VPC Image Creation
 
 VPC Instances can be a great way to deploy workloads in the cloud. This lab is for customers who have specific requirements for the contents of their boot images.  Contents like operating system version, patch level, applications and data.  Use VPC custom images to provision VPC Virtual server instances with the exact boot disk contents that meet your requirements.
 

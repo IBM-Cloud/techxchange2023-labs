@@ -1,6 +1,6 @@
 <img src="../header.jpg">
 
-> A Hands-On Guide for VPC Image Creation
+> Navigating challenges and crafting solutions for Secure, Compliant VPC Image Creation
 
 _Session 2059_
 
