@@ -6,7 +6,7 @@ Lets get ready! We are going to collaboratively set up a secure and compliant cl
 
 ## Log in to IBM Cloud
 
-1. Go to https://ibm.biz/ce-labs-invite.
+1. Go to https://ibm.biz/lab2048-invite.
 1. Enter the `Username` and `Password` provided for the lab.
 1. Click **Sign in**.
   ![](images/10-login.png ':size=600')
