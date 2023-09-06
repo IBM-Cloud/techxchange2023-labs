@@ -1,0 +1,6 @@
+{
+  "markdownlint.config": {},
+  "markdownlint.ignore": [
+  "**/**"
+  ]
+}

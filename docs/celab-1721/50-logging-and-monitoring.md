@@ -32,4 +32,4 @@ You can use the IBM Cloud Monitoring service to monitor your Code Engine workloa
 
 ?> In addition to the pre-configured Code Engine monitoring dashboard, you can also [create your own custom dashboards](https://cloud.ibm.com/docs/codeengine?topic=codeengine-monitor-custom) to match your needs.
 
-⇨ [Continue to More to discover](60-more-to-discover.md)
+⇨ [Build from source](55-build-from-source.md)
