@@ -10,4 +10,4 @@ You will also learn how to use Code Engine built-in features, such as runtime co
 
 Whether you are a developer, a software engineer, or an IT professional, this lab provides you with the tools you need to deploy application or container on IBM Cloud.
 
-⇨ [It's time to deploy an application!](10-1-2-3-deploy.md)
+⇨ [It's time to deploy an application!](10-getting-started.md)

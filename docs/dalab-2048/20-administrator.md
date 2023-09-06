@@ -1,118 +1,44 @@
+ Administrator
 
-## Setup your Enterprise account
-Enterprises are created from an existing Subscription account. When you create the enterprise, the account is added to the enterprise hierarchy. Billing transitions to being managed by the enterprise, but its users and resources remain the same and are completely unaffected. For a complete description of account impacts, see [Creating an enterprise](/docs/secure-enterprise?topic=secure-enterprise-create-enterprise).
+### Start with Slides
 
-1. In the {{site.data.keyword.cloud}} console, go to **Manage** > **Enterprise**, and click **Create**.
-2. Enter the name of your company, such as Example Corp, to identify your enterprise.
-3. Enter your company's domain, such as `examplecorp.com`.
-4. Review the information about the impact to your account, and select **I understand the impact to my account**. Then, click **Create**. The account is now permanently part of the enterprise and can't be removed.
+![Slides](images/01-slides.png)
 
-After your enterprise is created, you are directed to the enterprise dashboard. From here, you can view the enterprise details, accounts, users, and billing information. Go to the **Accounts** page to view your enterprise structure, where you see the following accounts:
-   * An enterprise account with the same name as your enterprise. This account is used for enterprise management.
-   * The account that you created the enterprise from. Users can continue working with resources in the account unaffected.
+- Kickstart with a non-interactive session using slides.
+- Understand the workflow based on account management, IAM, IAC, and SCC.
+- Dive into an enterprise account structure, encompassing enterprise, account groups, and accounts.
+- Introduction to IAM concepts, which covers access groups, users, trusted profiles. For further details, refer to [IAM Concepts](https://cloud.ibm.com/docs/account?topic=account-cloudaccess).
+- Familiarize yourself with the enterprise architecture with the help of the [Enterprise White Paper](https://cloud.ibm.com/docs/enterprise-account-architecture?topic=enterprise-account-architecture-account-structure).
+- The lab.md file captures most of the session so that participants can review post-session.
 
-## Create an enterprise structure with account groups
+### Review the Account Configuration
 
-Use account groups to [organize related accounts](/docs/account?topic=account-enterprise-organize). The second and third tier of the Example Corp. enterprise hierarchy contain the Marketing, Development, Sales, Design, and Engineering account groups. Complete the following steps to create the account groups:
+- Confirm your position within an enterprise at [IBM Cloud Enterprise](https://cloud.ibm.com/enterprise).
+- Navigate to [IAM Overview](https://cloud.ibm.com/iam/overview) to understand IAM's functionalities.
+- Review trusted profiles at [Trusted Profiles](https://cloud.ibm.com/iam/trusted-profiles).
+- Investigate access groups by visiting [Access Groups](https://cloud.ibm.com/iam/groups).
+- Examine the IAM permissions exclusively set for the lab.
 
-1. From the enterprise dashboard, click **Accounts** to view accounts and account groups in the enterprise.
-2. In the account group section, click **Create**.
-3. Enter the account group name, such as `Marketing`.
-4. In the contact field, enter the IBMid for the user that you want to be the main contact for the account group. Because an account group can't contain any resources, it doesn't have an owner like an account.
-5. Select **Example Corp** as the parent account.
-6. Click **Create**.
+### Compliance
 
-Repeat the steps to create the Sales, Development, Design, and Engineering account groups. When you create the Design and Engineering account groups, make sure that you add Development as the parent account group.
+Ensure that the compliance service is already provisioned and set up in advance.
 
-You can create new accounts within your enterprise. The accounts are created as Pay-As-You-Go accounts, and usage is billed to the enterprise. To create an account, you need an access policy with the Editor or Administrator role on the Enterprise service.
+- Run the pre-created scan on the SLZ to gauge compliance in the ROKS environment.
 
-Complete the following steps to create the example Web account in your enterprise:
+### About SCC
 
-1. From the Enterprise dashboard, click **Accounts** to view the accounts and account groups in the enterprise.
-1. In the Accounts section, select **Add** > **Create account**.
-1. Enter `Web` as the name of the account.
-1. If you want to assign a different user as the account owner, enter their IBMid in the **Owner** field. The account owner has full access to manage the account.
-1. Select **Marketing** as the parent of this account.
-1. Click **Create**.
+Get an introduction to SCC. Proceed to [SCC Overview](https://cloud.ibm.com/security-compliance/overview) to understand its steps:
 
-After you create the account, the account owner can log in to the account to invite other users and manage their access.
+1. Define your requirements.
+2. Implement secure deployments.
+3. Assess your posture.
 
-Repeat the steps to create more accounts. As an example, the Example Corp enterprise has the following child account and parent account group hierarchy.
+### Create a Scan to Assess the Engineer Work
 
-| Child | Parent |
-| ----- | -------|
-| Print | Marketing |
-| Frontend | Engineering |
-| Backend | Engineering |
-| Direct | Sales |
-| Online | Sales |
-| Enablement | Sales |
+- Head to SCC.
+- Design a custom profile emphasizing the control SC-28(1)(0).
+- Under Attachments, label it as "dalab-01-scan".
+- Select the custom profile and choose the dalab-01 resource in Scope.
+- Disable the automatic scan. Initiate it manually when needed.
 
-
-## Invite users to manage your enterprise
-
-In a large organization like Example Corp., there are likely other people who you want to give access to manage the enterprise so they can do their jobs. In this case, you want to give department leads of the Marketing, Development, and Sales account groups access to manage their accounts and resource usage, and you want the Example Corp. financial officer to have access to view the entire enterprise's billing and usage. To give other users access, you invite them to the enterprise account and assign them the appropriate access.
-
-First, invite the department leads and assign them access.
-
-1. Go to the Enterprise dashboard by clicking **Manage** > **Enterprise** in the {{site.data.keyword.cloud_notm}} console. In the Users section, click **Invite users**.
-1. Enter the email address of the user you want to invite, such as `jsmith@example.com`.
-1. Expand the **Assign access to the users** section.
-1. Select **Account management**
-1. Select **Enterprise**.
-1. Select the **Example Corp** enterprise.
-1. Select the first account group, **Marketing**. Leave the account selection blank. This scopes the access to only the particular account group.
-1. Select the **Editor** role.
-1. Click **Add**.
-1. Click **Invite**.
-
-Invite the other two department leads by clicking **Invite users** again and assigning the Editor access role for their department's respective account groups. Then, invite the financial officer and follow the same steps, but don't select an account group, and assign the **Usage Report Viewer** access instead.
-
-With the Usage Report Viewer role, the financial officer can see usage from all accounts but can't create, import, or otherwise organize accounts. You then need to provide them access to billing in the enterprise.
-
-1. From the Users page, click the name of the user from the list.
-1. Click **Access** > **Assign access**.
-1. Select the Billing service, and then select the Administrator role.
-1. Click **Review**.
-1. Click **Add** to add your policy configuration to your policy summary.
-1. Click **Assign**.
-
-## Assign users in child accounts access to create resources
-
-Before you begin, make sure that you switch to the account where you want to create the resource. In this case, switch to the *Print* account. If you want users in your account to create resources from the catalog and assign them to a resource group, you must assign two types of access policies.
-* Assign one access policy with viewer role or higher on the resource group.
-* Assign one access policy with editor or administrator role on the service.
-
-Complete the following steps to assign the required access:
-
-1. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Access (IAM)**, and select **Users**.
-2. Click the user's name from the list.
-3. Click **Access** > **Assign access**.
-4. Select the service that you want to assign the user access to.
-    * If you want the user to be able to create any service, select **All Identity and Access enabled services**.
-    * If you want to assign the user access to a specific service, select it from the list.
-5. Select the resource group that you want to assign the user access to.
-6. Select the location.
-7. Select the viewer role or higher from the list of platform access roles.
-8. (Optional) Select the reader role or higher from the list of service access roles.
-9. Select the viewer role or higher from the list of resource group access roles.
-10. Click **Review**.
-11. Click **Add** to add your policy configuration to your policy summary.
-12. Click **Assign**.
-
-## View usage from all accounts
-
-
-1. Log in to the Example Corp enterprise account.
-2. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Usage**.
-
-   The Usage page displays the costs for all usage in your enterprise, which is broken down by account and account group. Usage information for classic infrastructure services is not included for the current billing period. For more information, see [Viewing usage for your classic infrastructure resources](/docs/billing-usage?topic=billing-usage-infra-usage).
-3. Click **Marketing** in the table to view usage within the account group. Similar to the enterprise level, usage is broken down by the account and account group.
-4. To view usage by resource, go to the account level by clicking through account groups in the table or selecting the account from the **Enterprise** menu. Costs are shown for each type of resource that was used during the time frame.
-
-Repeat the steps to view usage for the Development, Sales, Design, and Engineering account groups.
-
-   From the enterprise account, you can't view usage data for the resource plan or instance because it requires access within the account. Click **Switch to the account** to view data for the account. You need billing access to the resources and services in the account. See [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage) for more information.
-
-Data is shown in the enterprise account only for usage that is incurred by accounts in the enterprise. To view usage from before an account was added to the enterprise, log in to that account and select the relevant time frame.
-{: note}
+⇨ [Continue with Engineer section](30-engineer.md)
