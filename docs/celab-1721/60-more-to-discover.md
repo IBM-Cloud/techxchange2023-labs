@@ -14,18 +14,6 @@ You can configure custom domains from the **Domain mappings** page for your spec
 
 To learn more about using custom domains, see [Configuring custom domain mappings for your app](https://cloud.ibm.com/docs/codeengine?topic=codeengine-domain-mappings).
 
-## Build from source
-
-You can deploy your application directly from source code that's located in a Git repository.
-
-![](images/70-source-to-code.png ':size=300')
-
-Code Engine can automatically push (upload) images to IBM Cloud Container Registry namespaces in your account and even create a namespace for you.
-
-Whether your code is in a public or private Git repository or in your local system, Code Engine provides the capability to build and deploy your application in both scenarios.
-
-To learn more about deploying an application directly from source code, see [Deploying your app from repository source code](https://cloud.ibm.com/docs/codeengine?topic=codeengine-app-source-code).
-
 ## Subscribe to events
 
 Oftentimes in distributed environments you want your applications or jobs to react to messages (events) that are generated from other components, which are usually called event producers. With Code Engine, your applications or jobs can receive events of interest by subscribing to event producers. Event information is received as POST HTTP requests for applications and as environment variables for jobs.
@@ -37,4 +25,4 @@ Code Engine supports the following types of event producers:
 
 To learn more about subscriptions, see [Getting started with subscriptions](https://cloud.ibm.com/docs/codeengine?topic=codeengine-subscribing-events).
 
-⇨ [Continue to Build from source](70-conclusion.md)
+⇨ [Continue to Conclusion](70-conclusion.md)

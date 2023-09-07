@@ -4,6 +4,7 @@
 - [🎛 Configuration and versions](30-configuration-and-versions)
 - [🪢 Service bindings](40-service-binding)
 - [📈 Logging and monitoring](50-logging-and-monitoring)
+- [🔨 Build from source](55-build-from-source)
 - [🧑‍🔬️ More to discover](60-more-to-discover)
 - [🏁 Conclusion](70-conclusion)
 - **Code Engine in IBM Cloud**
