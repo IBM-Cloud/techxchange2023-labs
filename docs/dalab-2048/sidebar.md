@@ -1,8 +1,9 @@
 - [🔎 Overview](README.md)
 - [🏎️ Getting Started!](10-getting-started.md)
-- [🔒 Administrator](20-administrator.md)
-- [📡 Engineer](30-engineer.md)
-- [💰 Compliance Officer](40-compliance.md)
+- [🔒 Administrator - Setup Accounts](20-administrator.md)
+- [💰 Compliance - Create a Scan](40-compliance.md)
+- [📡 Engineer - Deploy a Configuration](30-engineer.md)
+- [💰 Compliance - Run a Security Scan](40-compliance.md)
 - [🏁 Conclusion](50-conclusion)
 
 
