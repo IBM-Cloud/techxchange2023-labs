@@ -15,14 +15,16 @@ As you work through this lab, you will select a different trusted profile that c
   ![](images/20-lab-login.png ':size=400')
 1. You must provide a trusted profile. **Select** the trusted profile tile labeled **Administrator**
   ![](images/20-select-profile.png ':size=400')
-1. You should now be successfully logged in as an **Administrator** on the **IBM Cloud Dashboard**.
+1. You should now be successfully logged in as an **Administrator** on the **IBM Cloud console**.
   ![](images/20-dashboard.png ':size=400')
 
 ## Basic account configuration
 
 Part of the responsibilities for the Administrator will be to provide contact information for the account, to configure licenses acquired through IBM Passport Advantage, to define global notification lists, to create resource groups where engineers can deploy resources.
 
-All these options are found under the global **Account page**. Access it at https://cloud.ibm.com/account to access the configuration of the Account, or alternatively, use the top menu to go to **Manage** > **Account**.
+All these options are found under the global **Account page**.
+1. Go to https://cloud.ibm.com/account to access the configuration of the Account.
+   * Alternatively, use the top menu to go to **Manage** > **Account**.
 
 ## Enterprise configuration
 
@@ -30,7 +32,9 @@ Larger organizations usually rely on multiple accounts. These accounts belong to
 
 ![](images/20-enterprise-hierarchy.svg ':size=800')
 
-The account you are accessing today is part of a larger enterprise. To view the details of the Enterprise the account belongs to, go to https://cloud.ibm.com/enterprise, or alternatively, use the top menu to go to **Manage** > **Enterprise**.
+The account you are accessing today is part of a larger enterprise. To view the details of the Enterprise the account belongs to:
+1. Go to https://cloud.ibm.com/enterprise.
+   * Alternatively, use the top menu to go to **Manage** > **Enterprise**.
 
 ## Identity and Access Management
 
@@ -47,6 +51,6 @@ Access and permissions are defined by Identify and Access Management (IAM). With
 1. Click on the **Access** tab to view the permissions defined for this group.
    ![](images/20-access-group-permissions.png ':size=400')
 
-You task as **Administrator** is complete.
+Your task as **Administrator** is complete.
 
 ⇨ [Define compliance rules as Compliance Manager](25-compliance.md)

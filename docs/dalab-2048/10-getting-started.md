@@ -11,18 +11,4 @@ Lets get ready! We are going to collaboratively set up a secure and compliant cl
 
 ![](images/10-architecture.png ':size=800')
 
-## Understanding the IBM Cloud Basics
-
-In this lab we will cover a few topics and it's important to understand how they come together.  We will be interacting with [IBM Cloud Accounts](https://cloud.ibm.com/docs/account?topic=account-accounts), [Identity and Access Management (IAM)](https://cloud.ibm.com/docs/account?topic=account-account_setup), [Infrastructure as Code (IaC)](https://cloud.ibm.com/docs/schematics?topic=schematics-infrastructure-as-code), and [Security and Compliance Center (SCC)](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-best-practices).
-
-Each one of these components plays a critical role in ensure your organization is optimized for efficient workflows that meet the compliance standards of heavily regulated industries.
-
-## About SCC
-
-Get an introduction to SCC. Proceed to [SCC Overview](https://cloud.ibm.com/security-compliance/overview) to understand its steps:
-
-1. Define your requirements.
-2. Implement secure deployments.
-3. Assess your posture.
-
 ⇨ [Continue to Assign and monitor access](20-administrator.md)
