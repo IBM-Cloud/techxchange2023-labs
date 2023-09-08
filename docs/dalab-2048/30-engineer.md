@@ -2,12 +2,12 @@
 
 ## Log in as Compliance Manager
 
-1. Log out from IBM Cloud console.
+1. Log out from the IBM Cloud console.
 1. Go to https://ibm.biz/lab2048-invite.
 1. Enter the `Username` and `Password` provided for the lab.
 1. Click **Sign in**.
-1. You must provide a trusted profile. **Select** the trusted profile tile labeled **Engineer**.
-1. You should now be successfully logged in as an **Engineer** on the **IBM Cloud Dashboard**.
+1. **Select** the trusted profile tile labeled **Engineer**.
+1. You should now be successfully logged in as an **Engineer** on the **IBM Cloud console**.
 
 ## Catalog and Product Concepts
 

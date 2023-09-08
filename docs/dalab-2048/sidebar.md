@@ -1,7 +1,7 @@
 - [🔎 Overview](README.md)
 - [🏎️ Getting started!](10-getting-started.md)
 - [🔒 Assign and monitor access as Administrator](20-administrator.md)
-- [🕵 Define compliance rules as Compliance Manager](40-compliance.md)
+- [🕵 Define compliance rules as Compliance Manager](25-compliance.md)
 - [📡 Deploy an architecture as Engineer](30-engineer.md)
 - [🕵 Assess the compliance as Compliance Manager](40-compliance.md)
 - [🏁 Conclusion](50-conclusion)

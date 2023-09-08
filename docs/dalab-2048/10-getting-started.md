@@ -15,4 +15,12 @@ In this lab we will cover a few topics and it's important to understand how they
 
 Each one of these components plays a critical role in ensure your organization is optimized for efficient workflows that meet the compliance standards of heavily regulated industries.
 
+## About SCC
+
+Get an introduction to SCC. Proceed to [SCC Overview](https://cloud.ibm.com/security-compliance/overview) to understand its steps:
+
+1. Define your requirements.
+2. Implement secure deployments.
+3. Assess your posture.
+
 ⇨ [Continue to Assign and monitor access](20-administrator.md)
