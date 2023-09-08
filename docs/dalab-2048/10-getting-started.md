@@ -1,30 +1,18 @@
-# Getting Started
+# Getting started
 
 Lets get ready! We are going to collaboratively set up a secure and compliant cloud for Hill Valley Bank.  First we are going to play the role of an Administrator where we will prepare the account for enterprise governance by establishing trust and assigning access to federated users. Second, we are going to transition to the Engineer role, where we will deploy are brand new OpenShift Environment following best practices for a banking Environment. Lastly, we will play the role of a Compliance Manager who will define and assess our continuous compliance posture of our bank.
 
-
 **In this lab, you will:**
-1. Create a compliance Scan
-1. Create a new IaC configuration and store it in a private catalog
-1. Deploy your configuration using IBM Cloud Projects
-1. Run the compliance scan you crated on your deployment
+1. Review the access and permissions.
+1. Identify and scan resources that need to be compliant with regulations.
+1. Create a new Infrastructure-as-Code (IaC) configuration and make it inside the enterprise.
+1. Deploy this configuration.
+1. Run a scan to assess the compliance of the deployed configuration.
 
-**Lets get started!**
+## Understanding the IBM Cloud Basics
 
-## Log in to IBM Cloud
+In this lab we will cover a few topics and it's important to understand how they come together.  We will be interacting with [IBM Cloud Accounts](https://cloud.ibm.com/docs/account?topic=account-accounts), [Identity and Access Management (IAM)](https://cloud.ibm.com/docs/account?topic=account-account_setup), [Infrastructure as Code (IaC)](https://cloud.ibm.com/docs/schematics?topic=schematics-infrastructure-as-code), and [Security and Compliance Center (SCC)](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-best-practices).
 
-1. Go to https://ibm.biz/lab2048-invite.
-1. Enter the `Username` and `Password` provided for the lab.
-  ![](images/10-lab-login.png ':size=400')
-1. Click **Sign in**.
+Each one of these components plays a critical role in ensure your organization is optimized for efficient workflows that meet the compliance standards of heavily regulated industries.
 
-1. You must provide a trusted profile. As you work through this lab, you will select a different trusted profile that corresponds to each role within Hill Valley Bank. Lets start by selecting the **Administrator** role.
-
- **Select** the trusted profile tile labeled **Attendee for IBM TechXchange 2023**
-  ![](images/10-select-trusted-profile.png ':size=400')
-
-You should now be successfully logged in as an **Administrator** on the **IBM Cloud Dashboard**.
-
-  ![](images/20-dashboard.png ':size=400')
-
-⇨ [Continue to Administrator](20-administrator.md)
+⇨ [Continue to Assign and monitor access](20-administrator.md)

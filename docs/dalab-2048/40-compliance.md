@@ -1,23 +1,20 @@
-### Compliance
+# Assess the compliance as Compliance Manager
 
-Ensure that the compliance service is already provisioned and set up in advance.
+## Log in as Compliance Manager
 
-- Run the pre-created scan on the SLZ to gauge compliance in the ROKS environment.
+1. Log out from IBM Cloud console.
+1. Go to https://ibm.biz/lab2048-invite.
+1. Enter the `Username` and `Password` provided for the lab.
+1. Click **Sign in**.
+1. You must provide a trusted profile. **Select** the trusted profile tile labeled **Compliance Manager**.
+1. You should now be successfully logged in as an **Compliance Manager** on the **IBM Cloud Dashboard**.
 
-### About SCC
+## run scan
 
-Get an introduction to SCC. Proceed to [SCC Overview](https://cloud.ibm.com/security-compliance/overview) to understand its steps:
+- go to SCC
+- select attachment
+- run scan
 
-1. Define your requirements.
-2. Implement secure deployments.
-3. Assess your posture.
-
-### Create a Scan to Assess the Engineer Work
-
-- Head to SCC.
-- Design a custom profile emphasizing the control SC-28(1)(0).
-- Under Attachments, label it as "dalab-01-scan".
-- Select the custom profile and choose the dalab-01 resource in Scope.
-- Disable the automatic scan. Initiate it manually when needed.
+## review scan results
 
 ⇨ [Continue with the Conclusion](50-conclusion.md)

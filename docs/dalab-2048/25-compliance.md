@@ -1,12 +1,6 @@
+# Define compliance rules as Compliance Manager
 
-
-### Compliance
-
-Ensure that the compliance service is already provisioned and set up in advance.
-
-- Run the pre-created scan on the SLZ to gauge compliance in the ROKS environment.
-
-### About SCC
+## About SCC
 
 Get an introduction to SCC. Proceed to [SCC Overview](https://cloud.ibm.com/security-compliance/overview) to understand its steps:
 
@@ -14,7 +8,16 @@ Get an introduction to SCC. Proceed to [SCC Overview](https://cloud.ibm.com/secu
 2. Implement secure deployments.
 3. Assess your posture.
 
-### Create a Scan to Assess the Engineer Work
+## Log in as Compliance Manager
+
+1. Log out from IBM Cloud console.
+1. Go to https://ibm.biz/lab2048-invite.
+1. Enter the `Username` and `Password` provided for the lab.
+1. Click **Sign in**.
+1. You must provide a trusted profile. **Select** the trusted profile tile labeled **Compliance Manager**.
+1. You should now be successfully logged in as an **Compliance Manager** on the **IBM Cloud Dashboard**.
+
+## Create a Scan to Assess the Engineer Work
 
 - Head to SCC.
 - Design a custom profile emphasizing the control SC-28(1)(0).
