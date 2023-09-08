@@ -5,9 +5,7 @@
 - [📡 Engineer - Deploy a Configuration](30-engineer.md)
 - [💰 Compliance - Run a Security Scan](40-compliance.md)
 - [🏁 Conclusion](50-conclusion)
-
-
- **Learn more**
+- **Learn more**
 - [Lab Sign in](https://ibm.biz/ce-labs-invite)
 - [Console](https://cloud.ibm.com/)
 - [Documentation](https://cloud.ibm.com/docs/)
