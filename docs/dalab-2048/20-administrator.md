@@ -1,8 +1,11 @@
 # Assign and monitor access as Administrator
 
-As you work through this lab, you will select a different trusted profile that corresponds to each role within Hill Valley Bank. Let's start with the **Administrator** role.
+Administrators act as *Access Managers* to assign and monitor access among human users and non-human identities (like programs, APIs, etc.) in a cloud environment. Their responsibilities include:
+* Evaluating access needs;
+* Assigning and automating access types;
+* Monitoring and updating access as environment evolves.
 
-Access Managers assign and monitor access among human users and non-human identities (like programs, APIs, etc.) in a cloud environment.
+As you work through this lab, you will select a different trusted profile that corresponds to each role within Hill Valley Bank. Let's start with the **Administrator** role. You will walk through the identity and access management concepts and review the configuration that was prepared for the lab. There are no changes to be done in this section.
 
 ## Log in as Administrator
 
@@ -15,45 +18,35 @@ Access Managers assign and monitor access among human users and non-human identi
 1. You should now be successfully logged in as an **Administrator** on the **IBM Cloud Dashboard**.
   ![](images/20-dashboard.png ':size=400')
 
-## Enterprise Accounts
+## Basic account configuration
 
-1. From the **Dashboard** and located on the **Top NavBar** Click **Manage**.
-1. Select the **Enterprise** from the dropdown.
-   1. You should see that your account belongs to the Enterprise `TechZoneEnterprise`.  Under normal circumstances, this would most likely be your company name.
-![](images/20-show-enterprise.png ':size=400')
+Part of the responsibilities for the Administrator will be to provide contact information for the account, to configure licenses acquired through IBM Passport Advantage, to define global notification lists, to create resource groups where engineers can deploy resources.
 
-?> You can familiarize yourself with the enterprise architecture with the help of the [Enterprise White Paper](https://cloud.ibm.com/docs/enterprise-account-architecture?topic=enterprise-account-architecture-account-structure).
+All these options are found under the global **Account page**. Access it at https://cloud.ibm.com/account to access the configuration of the Account, or alternatively, use the top menu to go to **Manage** > **Account**.
+
+## Enterprise configuration
+
+Larger organizations usually rely on multiple accounts. These accounts belong to an Enterprise and grouped in account groups.
+
+![](images/20-enterprise-hierarchy.svg ':size=800')
+
+The account you are accessing today is part of a larger enterprise. To view the details of the Enterprise the account belongs to, go to https://cloud.ibm.com/enterprise, or alternatively, use the top menu to go to **Manage** > **Enterprise**.
 
 ## Identity and Access Management
-Now lets Navigate to [IAM Overview](https://cloud.ibm.com/iam/overview) to understand IAM's functionalities. You can find an introduction to IAM concepts, which covers access groups, users, trusted profiles in IBM Cloud Documentation. For further details, refer to [IAM Concepts](https://cloud.ibm.com/docs/account?topic=account-cloudaccess).
 
-1. From the **Dashboard** and located on the **Top NavBar** Click **Manage**.
-1. Select the **IAM** from the dropdown.
+Access and permissions are defined by Identify and Access Management (IAM). With IAM, you can manage additional users, trusted profiles, API Keys, Access groups and more.
+   ![](images/20-iam.png ':size=400')
 
-![](images/20-iam.png ':size=400')
+1. Go to https://cloud.ibm.com/iam/overview to access IAM.
+   * Alternatively, use the top menu to go to **Manage** > **Access (IAM)**.
+1. In the left menu, select **[Trusted profiles](https://cloud.ibm.com/iam/trusted-profiles)**. Trusted profiles are used to automatically grant federated users access to your account based on external identity provider specifications. This is how this lab is configured! 3 trusted profiles were created, providing your user with 3 different profiles to adopt with only one set of credentials. As the **Administrator**, you are currently assigned the `da-lab-2048-administrator` profile.
+   ![](images/20-trusted-profiles.png ':size=400')
+1. Now select **[Access Groups](https://cloud.ibm.com/iam/groups)**. Access groups allow to quickly and easily assign access to a set of users, service IDs and trusted profiles. As the **Administrator**, you have been added to the `da-lab-2048-administrator` access group.
+   ![](images/20-access-groups.png ':size=400')
+1. Click on the access group.
+1. Click on the **Access** tab to view the permissions defined for this group.
+   ![](images/20-access-group-permissions.png ':size=400')
 
-Here you can manage additional users, trusted profiles, API Keys, Access groups and more.
-
-## Trusted Profiles
-Let's review your trusted profiles at [Trusted Profiles](https://cloud.ibm.com/iam/trusted-profiles) in the **Left Navigation**
-
-![](images/20-trusted-profiles.png ':size=400')
-
-Here you can create trusted profiles to automatically grant federated users access to your account based on external identity provider specifications
-
-## Access Groups
-
-Now let's investigate access groups by visiting [Access Groups](https://cloud.ibm.com/iam/groups) in the **Left Navigation**
-
-Here you create access groups to quickly and easily assign access to a set of users, service IDs and trusted profiles. To add identities and assign access to an existing group, click the group name.
-
-![](images/20-access-groups.png ':size=400')
-
-1. From the list, select `da-lab-2048-administrator`
-1. From the Group Details page, select the **Access** tab
-
-![](images/20-access-group-permissions.png ':size=400')
-
-Here you can view all of the permissions that are granted to this access group.
+You task as **Administrator** is complete.
 
 ⇨ [Define compliance rules as Compliance Manager](25-compliance.md)
