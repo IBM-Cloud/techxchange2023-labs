@@ -1,6 +1,6 @@
 # Define compliance rules as Compliance Manager
 
-The Engineer will be deploying resources in a specific resource group. You are going to configure a custom profile and an attachment.
+The Engineer will be deploying resources in a specific resource group. As Compliance Manager, you are going to configure a custom profile and an attachment to assess the deployed resources.
    * A profile is a collection of related controls that you can use to evaluate your organization's compliance posture. In this custom profile, you will be selecting a very specific rule that ensures encryption is enabled for data at rest.
    * An attachment is the connection between a profile and a set of resources that defines the way an evaluation is conducted.
 
