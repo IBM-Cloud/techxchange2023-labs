@@ -49,7 +49,8 @@ Once the profile is created, you can create an attachment.
 1. From the **Actions** menu, select **Attach**.
 1. In **Details**, set the **Name** to `<your-username>-encryption-only`, as example `dalab-123-encryption-only`.
 1. Click **Next**.
-1. In **Profile**, set the **Profile** to the one you created in the previous step.
+1. In **Profile**, confirm the **Profile** is the one you created in the previous step.
+1. Click **Next**.
 1. In **Scope**, select the entry named after your username, as example `dalab-123`. This entry refers to the _resource group_ where the Engineer will deploy resources.
 1. Click **Next**.
 1. In **Scan settings**, uncheck **Enable scan**. This gives the ability to configure the frequency at which you want to evaluate your selected resources. In this lab, you will run the scan on demand so you don't need to activate that option.
