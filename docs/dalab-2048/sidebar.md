@@ -6,6 +6,6 @@
 - [🕵 Assess the compliance as Compliance Manager](40-compliance.md)
 - [🏁 Conclusion](50-conclusion)
 - **Learn more**
-- [Lab Sign in](https://ibm.biz/ce-labs-invite)
+- [Lab Sign in](https://ibm.biz/lab2048-invite)
 - [Console](https://cloud.ibm.com/)
 - [Documentation](https://cloud.ibm.com/docs/)
