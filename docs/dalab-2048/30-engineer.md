@@ -114,5 +114,9 @@ Once saved, you can validate the project configuration before you can deploy the
 1. Click **Deploy**.
 1. Eventually the deployment completes
    ![](images/30-project-deployed.png ':size=400')
+1. Click **View resources**.
+1. In the project configuration page, switch between **Resources** and **Outputs** to view the resources that were created.
 
-⇨ [Continue with Compliance section](40-compliance.md)
+You're done with the Engineer section. Notice that you deployed an architecture that is not fully compliant. Let's see how the Compliance Manager can audit the deployed resources and assess against the controls required by your organization.
+
+⇨ [Continue with Assess the compliance as Compliance Manager](40-compliance.md)
