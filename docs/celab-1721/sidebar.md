@@ -2,7 +2,7 @@
 - [🚀 1-2-3 Deploy!](10-1-2-3-deploy.md)
 - [⚡️ Autoscaling](20-scaling)
 - [🎛 Configuration and versions](30-configuration-and-versions)
-- [🪢 Service bindings](40-service-binding)
+- [🔗 Service bindings](40-service-binding)
 - [📈 Logging and monitoring](50-logging-and-monitoring)
 - [🔨 Build from source](55-build-from-source)
 - [🧑‍🔬️ More to discover](60-more-to-discover)
