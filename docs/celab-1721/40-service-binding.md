@@ -28,9 +28,16 @@ Binding a service instance to a Code Engine application or job automatically add
 
 The output of your application now displays the credentials to access the *Cloud Object Storage* instance as environment variables in the application. For this example, the environment variables are named in the format `CLOUD_OBJECT_STORAGE_`.
 
+   ![](images/40-credentials.png ':size=400')
+
 ?> You might need to refresh the page a few times before the application reflects the changes.
 
-   ![](images/40-credentials.png ':size=400')
+Code Engine provides environment variables for accessing service instances that are bound to your Code Engine workload with both the `CE_SERVICES` and `PREFIX` methods.
+
+* The `CE_SERVICES` environment variable is a single environment variable that contains all service binding information as a JSON object.
+* Code Engine also creates multiple environment variables for your service binding, which are based on the variables in the service credential for your service instance. To distinguish these multiple environment variables for your service binding, you can use a PREFIX such that these environment variables use the same prefix. If you do not specify a custom prefix, Code Engine automatically generates a prefix.
+
+The `hello world` example only displays the credentials. In a real application, in your source code, you will typically use the credentials to access the target service through its API. You would initialize the API (or SDK) with values from the environment variables created by Code Engine.
 
 ?> If you look at the application dashboard for your specific application, you will see that Code Engine created a new revision of the application when the binding was created. The new configuration revision is expected because you changed the configuration of this application to add the binding.<br/><br/>
 ![](images/40-new-revision.png ':size=400')
