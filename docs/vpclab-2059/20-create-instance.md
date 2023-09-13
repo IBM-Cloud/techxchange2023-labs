@@ -10,7 +10,7 @@ At the end of this section you will have a VSI running with unique contents that
 
 An SSH key is a required prerequisite to creating a VSI.  Let's create a new one now just in case you need to access this VSI in the future.
 
-1. Go to https://cloud.ibm.com/vpc-ext/compute/sshKeys.
+1. Go to https://cloud.ibm.com/vpc-ext/compute/sshKeys
    * Alternatively, use the navigation menu to go to the SSH keys page: ☰ > VPC Infrastructure > SSH keys.
 1. Click **Create**.
 1. Set **Geography** to **North America**.
@@ -29,7 +29,7 @@ An SSH key is a required prerequisite to creating a VSI.  Let's create a new one
 
 You will create a VSI from the custom image and customize the instance during the provisioning. The customization will install the `nginx` server and modify its homepage.
 
-1. Go to https://cloud.ibm.com/vpc-ext/compute/vs.
+1. Go to https://cloud.ibm.com/vpc-ext/compute/vs
    * Alternatively, use the navigation menu to go to the Virtual server instances page: ☰ > VPC Infrastructure > Virtual server instances.
 1. Select **Dallas** as the target region.
 1. Click **Create**.

@@ -9,7 +9,7 @@ You find 3 categories of images in IBM Cloud:
 
 ## Log in to IBM Cloud
 
-1. Go to https://ibm.biz/vpc-labs-invite.
+1. Go to https://ibm.biz/vpc-labs-invite
 1. Enter the `Username` and `Password` provided for the lab.
 1. Click **Sign in**.
   ![](images/10-login.png ':size=600')
@@ -24,7 +24,7 @@ When you provision a virtual server on your VPC, you need to select an image to 
 * Bare metal server images
 * s390x bare metal server images
 
-1. To view existing stock images, go to https://cloud.ibm.com/vpc-ext/compute/images.
+1. To view existing stock images, go to https://cloud.ibm.com/vpc-ext/compute/images
    * Alternatively, use the navigation menu to go to the Images for VPC page: ☰ > VPC Infrastructure > Images.
 1. Select the **Stock images** tab.
    ![](images/10-stock-images.png ':size=400')
@@ -42,7 +42,7 @@ The part in yellow in the diagram below has already been completed:
   ![](images/upload-image.svg ':size=400')
 
 To confirm the image file has been correctly preloaded:
-1. Go to the Resource List at https://cloud.ibm.com/resources.
+1. Go to the Resource List at https://cloud.ibm.com/resources
    * Alternatively, use the navigation menu to go to the Resource list page: ☰ > Resource list.
 1. Expand the **Storage** category.
 1. Click on the **vpc-labs-2059-cos** service.

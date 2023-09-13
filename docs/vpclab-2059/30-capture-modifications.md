@@ -33,7 +33,7 @@ In the _Custom image for VPC_ dialog:
 
 ## Delete the instance
 
-1. Go to https://cloud.ibm.com/vpc-ext/compute/vs.
+1. Go to https://cloud.ibm.com/vpc-ext/compute/vs
    * Alternatively, use the navigation menu to go to the Virtual server instances page: ☰ > VPC Infrastructure > Virtual server instances.
 1. Select your virtual server instance.
 1. From the **Actions** menu, choose **Delete**.
@@ -52,7 +52,7 @@ A _Deprecated_ image can still be used to create new instance, where an _Obsolet
 1. Set **Image status** to **Set to obsolete**.
 1. Select to apply the new status **Immediately**.
 1. Click **Save**.
-1. Go back to the list of images at https://cloud.ibm.com/vpc-ext/compute/images.
+1. Go back to the list of images at https://cloud.ibm.com/vpc-ext/compute/images
 1. Notice your image is not marked as _Obsolete_ and can no longer be used to create new instances.
 
 [⇨ Continue to Share in a private catalog](50-private-catalog.md)

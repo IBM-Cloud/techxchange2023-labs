@@ -100,7 +100,7 @@ In the **Validate version** section, a virtual server instance is going to be pr
 
 ## Confirm the image is available as a catalog product
 
-1. Go to https://cloud.ibm.com/vpc-ext/compute/vs.
+1. Go to https://cloud.ibm.com/vpc-ext/compute/vs
    * Alternatively, use the navigation menu to go to the Virtual server instances page: ☰ > VPC Infrastructure > Virtual server instances.
 1. Click **Create**.
 1. Scroll to **Image and profile**, click **Change image**.

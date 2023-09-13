@@ -18,7 +18,7 @@ Most corporations have corporate compliance requirements that are continuously a
 
 ### Delete instances
 
-1. Go to https://cloud.ibm.com/vpc-ext/compute/vs.
+1. Go to https://cloud.ibm.com/vpc-ext/compute/vs
 1. Select **Dallas** as the target region.
 1. Find the virtual server instances you created.
    ![](images/75-delete-vsi.png ':size=500')
