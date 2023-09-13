@@ -31,6 +31,7 @@ As Engineer, your role includes providing other teams with ready-to-use environm
 
 1. Click **Edit** to modify the **Catalog entry details**.
 1. Edit the **Product name** and add `<your-username> - ` as a prefix to make it unique. As example `dalab-123 - Simple deployable architecture`.
+1. Edit the **Programmatic name** add `<your-username> - ` as a prefix to make it unique. As example `dalab-123-techxchange-simple-da`.
 1. Click **Save**.
 
 ## Validate the product
