@@ -6,6 +6,14 @@ In this section, you are going to log in to IBM Cloud, deploy an application and
 
 ## Log in to IBM Cloud
 
+### Retrieve the credentials to use for authentication
+
+1. From the desktop of the _jumpbox_ machine, open the file named `password.txt`. It contains the `Username` and `Password` to use for authentication.
+   ![](../dalab-2048/images/10-password.png ':size=400')
+1. Keep the file open for the next steps.
+
+### Log in
+
 1. Go to https://ibm.biz/ce-labs-invite.
 1. Enter the `Username` and `Password` provided for the lab.
 1. Click **Sign in**.
