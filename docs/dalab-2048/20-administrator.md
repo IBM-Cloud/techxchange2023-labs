@@ -12,7 +12,7 @@ As you work through this lab, you will select a different trusted profile that c
 ### Retrieve the credentials to use for authentication
 
 1. From the desktop of the _jumpbox_ machine, open the file named `password.txt`. It contains the `Username` and `Password` to use for authentication.
-   ![](images/10-password.png ':size=400')
+   ![](images/20-password.png ':size=400')
 1. Keep the file open for the next steps.
 
 ### Log in
