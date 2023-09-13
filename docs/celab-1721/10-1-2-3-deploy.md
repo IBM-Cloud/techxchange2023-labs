@@ -14,7 +14,7 @@ In this section, you are going to log in to IBM Cloud, deploy an application and
 
 ### Log in
 
-1. Go to https://ibm.biz/ce-labs-invite.
+1. Go to https://ibm.biz/ce-labs-invite
 1. Enter the `Username` and `Password` provided for the lab.
 1. Click **Sign in**.
   ![](images/10-login.png ':size=600')
@@ -25,7 +25,7 @@ In this section, you are going to log in to IBM Cloud, deploy an application and
 
 A project is a grouping of Code Engine entities such as applications, jobs, and builds. The name of your project must be unique within your IBM Cloud resource group, user account, and region. Projects are used to manage resources and provide access to its entities.
 
-1. Go to https://cloud.ibm.com/codeengine/overview.
+1. Go to https://cloud.ibm.com/codeengine/overview
    * Alternatively, use the navigation menu to go to the Code Engine Overview page: ☰ > Code Engine > Overview.
 1. Click **Let's go**.
   ![](images/10-landing.png ':size=400')

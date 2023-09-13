@@ -23,7 +23,7 @@ To learn more about Code Engine workloads, see [Application workloads](https://c
 
 ## (Optional) Cleanup 🧹
 
-1. Go to the list of projects at https://cloud.ibm.com/codeengine/projects.
+1. Go to the list of projects at https://cloud.ibm.com/codeengine/projects
 1. Delete your project by clicking on the Delete icon 🗑 showing on the right of the project.
 
    ?> Deleting your project also deletes all contained entities including apps and jobs as well as associated image builds, secrets, and configmaps.

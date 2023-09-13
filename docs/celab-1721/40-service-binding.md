@@ -4,7 +4,7 @@ Service bindings provide applications and jobs access to IBM Cloud services.
 
 ## Let’s bind a service to your project
 
-1. Go to the list of projects at https://cloud.ibm.com/codeengine/projects.
+1. Go to the list of projects at https://cloud.ibm.com/codeengine/projects
 1. Select the project you created previously.
 1. Click **Service bindings**.
 1. Click **Create**.

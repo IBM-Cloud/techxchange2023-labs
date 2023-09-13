@@ -6,7 +6,7 @@ Code Engine integrates seamlessly with IBM Cloud Log Analysis and Monitoring ser
 
 When you work with Code Engine apps, jobs, or builds in the console with logging enabled, logs are forwarded to an IBM Log Analysis service where they are indexed, enabling full-text search through all generated messages and convenient querying based on specific fields.
 
-1. Go to the list of projects at https://cloud.ibm.com/codeengine/projects.
+1. Go to the list of projects at https://cloud.ibm.com/codeengine/projects
 1. Select the project you created previously.
 1. Click **Applications** in the Summary and then select the application that you created previously.
 1. From the **Overview** page for your application, click **Launch logging**.

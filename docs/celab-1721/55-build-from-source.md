@@ -50,7 +50,7 @@ Whether your code is in a public or private Git repository or in your local syst
 
 ### Create a registry access secret
 
-1. Go to https://cloud.ibm.com/codeengine/projects.
+1. Go to https://cloud.ibm.com/codeengine/projects
    * Alternatively, use the navigation menu to go to the Code Engine Projects page: ☰ > Code Engine > Projects.
 1. Select the project you created previously.
 1. Select **Registry access** in the left menu.
